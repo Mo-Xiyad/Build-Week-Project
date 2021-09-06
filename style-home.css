@@ -33,3 +33,13 @@ li a:hover:not(.active) {
 nav.bg-light {
     background-color: transparent !important;
 }
+
+footer {
+    position: absolute;
+    padding: 10px 10px 0px 10px;
+    bottom: 5;
+    width: 100%;
+    /* Height of the footer*/ 
+    height: 80px;
+    background: rgb(48, 46, 46);
+}
