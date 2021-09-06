@@ -85,7 +85,7 @@ footer {
     height:max-content;
     
 }
-.card-text{
+.card-img-top{
     text-overflow: ellipsis;
     overflow: hidden;
     white-space:nowrap ;
