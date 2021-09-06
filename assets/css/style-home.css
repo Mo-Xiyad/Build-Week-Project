@@ -16,7 +16,7 @@ div.main-nav-bar div.side-nav{
     list-style-type: none;
     margin: 0;
     padding: 0;
-    width: 15%;
+    width: 12%;
     position: fixed;
     height: 85vh;
     
@@ -97,7 +97,7 @@ hr{
 
 div.side-menu-songs-list{
     overflow: auto;
-    height: calc(100vh - 60vh)
+    height: calc(100vh - 50vh)
 }
 
 div.side-menu-songs-list ul li{
