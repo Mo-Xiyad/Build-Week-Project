@@ -7,8 +7,12 @@ h1,h2,h3,h4,h5,h6{
     color: rgb(255,255,255);
 }
 .box{
-    margin-left:16%;
+    /* min-width: calc(100vw - 25vw); */
+    margin-left:14%;
     margin-right: 1%;
+    overflow: hidden;
+    /* white-space:pre-line; */
+    /* display: flex; */
 }
 
 div.main-nav-bar div.side-nav{
@@ -18,7 +22,7 @@ div.main-nav-bar div.side-nav{
     padding: 0;
     width: 12%;
     position: fixed;
-    height: 85vh;
+    height: 665px;
     
 }
 
@@ -97,7 +101,8 @@ hr{
 
 div.side-menu-songs-list{
     overflow: auto;
-    height: calc(100vh - 50vh)
+    height: calc(100vh - 60vh);
+    background-color: rgb(0,0,0);
 }
 
 div.side-menu-songs-list ul li{
@@ -121,17 +126,4 @@ div.side-menu-songs-list::-webkit-scrollbar-track {
 div.side-menu-songs-list::-webkit-scrollbar-thumb {
   background-color: darkgrey;
   outline: 1px solid slategrey;
-}
-.card{
-    background-color: rgb(70, 61, 61);
-
-    width:140px;
-    
-}
-.card-text-paragraph{
-    text-overflow: ellipsis;
-    overflow: hidden;
-    white-space:nowrap ;
-    color:white 
-    ;
 }
