@@ -1,0 +1,124 @@
+body{
+    font-family:sans-serif,Helvetica,Helvetica,Arial;
+    color:#B3B3B3;
+    background-color: #121212;
+}
+h1,h2,h3,h4,h5,h6{
+    color: rgb(255,255,255);
+}
+.box{
+    margin-left:16%;
+    margin-right: 1%;
+}
+
+div.main-nav-bar div.side-nav{
+    background-color: rgb(0,0,0);
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 12%;
+    position: fixed;
+    height: 85vh;
+    
+}
+
+div.main-nav-bar div.side-nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+}
+
+div.main-nav-bar div.side-nav ul li a {
+    display: block;
+    color:#B3B3B3;
+    padding: 8px 0 8px 16px;
+    text-decoration: none;
+}
+
+div.main-nav-bar div.side-nav ul li a.active {
+    background-color: #555;
+    
+}
+
+div.main-nav-bar div.side-nav ul li a:hover:not(.active) {
+    background-color: #555;
+    color: rgb(255,255,255);
+}
+
+nav.bg-light {
+    background-color: transparent !important;
+}
+
+nav.navbar {
+   color: rgb(138, 59, 59);
+   height: 100%;
+}
+
+.plus-sign-nav{
+    background-color:#B3B3B3;
+    width: 20px;
+    height: 20px;
+}
+div.plus-sign-nav + a{
+    color:#B3B3B3;
+    text-decoration: none;
+    cursor: pointer;
+    
+}
+.liked-sign-nav{
+    background: linear-gradient(135deg,#450af5,#c4efd9);
+    border-radius: 1px;
+    width: 20px;
+    height: 20px;
+}
+div.liked-sign-nav + a{
+    color:#B3B3B3;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+div.dropdown a{
+background-color: #121212 !important;
+color: white !important;
+border: 1px solid #121212;
+border-radius: 55px;
+padding: auto;
+width: 195px;
+overflow: hidden;
+white-space: nowrap;
+text-overflow: ellipsis;
+font-weight: bold;
+}
+
+hr{
+ background-color: #1f1f1f;   
+}
+
+div.side-menu-songs-list{
+    overflow: auto;
+    height: calc(100vh - 50vh)
+}
+
+div.side-menu-songs-list ul li{
+overflow: hidden;
+white-space: nowrap;
+text-overflow: ellipsis;
+font-weight: lighter;
+font-size: 14px;
+line-height: 35px;
+}
+
+
+div.side-menu-songs-list::-webkit-scrollbar {
+    width: 0.5em;
+}
+ 
+div.side-menu-songs-list::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px #121212;
+}
+ 
+div.side-menu-songs-list::-webkit-scrollbar-thumb {
+  background-color: darkgrey;
+  outline: 1px solid slategrey;
+}

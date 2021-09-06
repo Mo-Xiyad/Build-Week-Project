@@ -58,3 +58,43 @@ nav.bg-light {
     background-color: rgba(255, 255, 255, 0.2);
     border: none;
 }
+footer {
+    position: absolute;
+    padding: 10px 10px 0px 10px;
+    bottom: 5;
+    width: 100%;
+    /* Height of the footer*/ 
+    height: 80px;
+    background: rgb(48, 46, 46);
+}
+.card-img-top{
+  
+    
+    height: fit-content;
+   
+}
+.card{
+    background-color: rgb(70, 61, 61);
+
+    width:140px;
+    height:max-content;
+    
+}
+.card-text{
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space:nowrap ;
+    color:white 
+    ;
+    
+    
+}
+h6,h5,h4{
+    color: white;
+}
+
+
+
+ 
+
+
