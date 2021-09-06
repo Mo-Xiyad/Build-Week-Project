@@ -43,3 +43,34 @@ footer {
     height: 80px;
     background: rgb(48, 46, 46);
 }
+.card-img-top{
+  
+    
+    height: fit-content;
+   
+}
+.card{
+    background-color: rgb(70, 61, 61);
+
+    width:140px;
+    height:max-content;
+    
+}
+.card-text{
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space:nowrap ;
+    color:white 
+    ;
+    
+    
+}
+h6,h5,h4{
+    color: white;
+}
+
+
+
+ 
+
+
