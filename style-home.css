@@ -68,7 +68,10 @@ footer {
     /* Height of the footer*/ 
     height: 80px;
     background: rgb(48, 46, 46);
+
+
 }
+    /* CSS for the cards */
 .card-img-top{
   
     
@@ -91,9 +94,7 @@ footer {
     
     
 }
-h6,h5,h4{
-    color: white;
-}
+/* CSS FOR CARDS END */
 
 
 

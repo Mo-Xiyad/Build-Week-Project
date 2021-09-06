@@ -145,3 +145,28 @@ div.side-menu-songs-list::-webkit-scrollbar-thumb {
     border: none;
 }
 /* STYLE OF GREETINGS SECTION END */
+   /* CSS for the cards */
+   .card-img-top{
+  
+    
+    height: fit-content;
+   
+}
+.card{
+    background-color: rgb(70, 61, 61);
+
+    width:140px;
+    height:max-content;
+    
+}
+.card-text{
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space:nowrap ;
+    color:white 
+    ;
+    
+    
+}
+
+ /* CSS FOR CARDS END */
