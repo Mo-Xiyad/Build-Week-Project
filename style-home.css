@@ -37,6 +37,8 @@ nav.bg-light {
     background-color: transparent !important;
 }
 
+/* STYLE OF GREETINGS SECTION */
+
 .box .container .card-deck .card .row .imgbox img {
     height: 60px;
     width: auto;
@@ -51,7 +53,7 @@ nav.bg-light {
     vertical-align: middle;
 }
 
-div.box:nth-of-type(1) ~ .card {
+.box .container .card-deck .card {
     color: white;
     background-color: rgba(255, 255, 255, 0.2);
     border: none;
