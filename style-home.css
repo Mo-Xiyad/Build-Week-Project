@@ -33,3 +33,16 @@ li a:hover:not(.active) {
 nav.bg-light {
     background-color: transparent !important;
 }
+.card-img-top{
+    
+    height: fit-content;
+}
+.card{
+    width:140px;
+    height:max-content;
+}
+.card-text{
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space:nowrap ;
+}
