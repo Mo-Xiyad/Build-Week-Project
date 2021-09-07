@@ -1,0 +1,24 @@
+/* CSS STYLE FOR THE TABLE ON THE ARTIST PAGE */
+
+.button-one{
+    border: 1px solid grey;
+    border-radius: 5%;
+    color: white;
+    margin: 1px;
+    background-color:rgb(53, 56, 59);
+    margin-left: 40px;
+    padding-left:20px ;
+    padding-right:20px ;
+}
+th,td{
+    color:white;
+}
+h3,h4{
+    font-weight: bold;
+    color: white;
+}
+.three-dot-container{
+    margin-left: 20px;
+}
+
+/* CSS STYLE FOR THE TABLE ON THE ARTIST PAGE END */
