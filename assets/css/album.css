@@ -1,15 +1,8 @@
-.row div img{
+.row div > img{
     height: 150px;
     padding-left: 100%;
 }
 
-.container-fluid .bootstrap-icons nav ul {
-    padding-left: 47%; 
-    display: flex;
-    justify-content: space-between;
+.container-fluid .row .col-8 .list-unstyled li p{
+    font-size: smaller;
 }
-
-/* div.container-fluid div.row div.col-8 > ul li p > img{
-    height: none;
-    padding-left: none;
-} */
