@@ -215,6 +215,7 @@ div.side-menu-songs-list::-webkit-scrollbar-thumb {
     width: 15rem; 
     height: 5rem; 
     border-radius: 10px;
+    cursor: pointer;
 }
 
 div.first-div-card-styles img{
@@ -229,6 +230,7 @@ div.first-div-card-styles img{
 .card{
     background-color: rgb(31, 27, 27);
     margin: 8px; 
+    cursor: pointer;
 }
 
 .card-img-top{
