@@ -163,13 +163,20 @@ div.side-menu-songs-list::-webkit-scrollbar-thumb {
 /* CSS STYLES FOR THE CARDS */
 .card{
     background-color: rgb(31, 27, 27);
+    margin: 8px;
+    
+    
 }
+
+    
+
 
    
 .card-img-top{
-    width: 120px;
-    height: 160px; 
-    inset-block-start: 10px;
+    width: 150px;
+    height: 180px;
+    margin: 15px; 
+   
 }
 
 
