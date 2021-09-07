@@ -4,19 +4,12 @@
 }
 
 .container-fluid .bootstrap-icons nav ul {
- padding-left: 47%; 
+    padding-left: 47%; 
     display: flex;
     justify-content: space-between;
 }
-.bi-play-circle{
-    font-size: xx-large;
-border-color: white;
 
-} 
-.bi-heart{
-    font-size: large;
-    
-}
-.bi-three-dots{
-
-}
+/* div.container-fluid div.row div.col-8 > ul li p > img{
+    height: none;
+    padding-left: none;
+} */
