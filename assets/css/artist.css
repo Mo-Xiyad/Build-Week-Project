@@ -19,14 +19,15 @@ h3,h4{
 }
 .three-dot-container{
     margin-left: 20px;
+    overflow: hidden
 }
 
 /* CSS STYLE FOR THE TABLE ON THE ARTIST PAGE END */
 .hidden-box-artist{
     background: rgb(0,0,0);
     margin:0;
-    padding: 0px;
-    width: 100vw;
+    padding: 0;
+    width: 100%;
     opacity: 0.5;
     overflow-x: hidden;
 }
