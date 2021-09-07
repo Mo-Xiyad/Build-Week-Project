@@ -1,8 +1,13 @@
+* {
+  transition: all 0.3s ease-out;
+}
+
 body{
     font-family:sans-serif,Helvetica,Helvetica,Arial;
     color:#B3B3B3;
     background-color: #121212;
 }
+
 body::-webkit-scrollbar {
     width: 0.6em;
     
@@ -218,21 +223,49 @@ div.side-menu-songs-list::-webkit-scrollbar-thumb {
     cursor: pointer;
     background-color: rgba(82, 79, 79, 0.3) !important;
     color: #fff;
-}
+  }
+
+  
+.first-div-card-styles:hover{
+    transition: all 0.2s ease-out;
+    background-color: rgba(104, 101, 101, 0.5) !important;
+    color: #fff;
+    box-shadow: 0px 4px 8px rgba(38, 38, 38, 0.2);
+    top: -4px;
+    border: 1px solid #464545;
+  }
+    
+.first-div-card-styles:hover:before {
+    transform: scale(2.15);
+  }
 
 div.first-div-card-styles img{
     border-top-left-radius: 10px ;
     border-bottom-left-radius: 10px ;
 }
 
-/* STYLE OF GREETINGS SECTION END */
 
+
+
+
+/* STYLE OF GREETINGS SECTION END */
+/* EVERYTHING BELOW HERE PLEASE RENAME THE CLASSES OR USE A DIFFERENT TYPE OF A SELECTORE */
+/* THE IT IS NOW MESSING UP A LOT OF CODES  */
 
 /* CSS STYLES FOR THE CARDS */
 .card{
     background-color: rgba(31, 27, 27, 0.4);
     margin: 8px; 
     cursor: pointer;
+}
+
+.card:hover{
+    transition: all 0.2s ease-out;
+    background-color: rgba(104, 101, 101, 0.5) !important;
+    color: #fff;
+    box-shadow: 0px 4px 8px rgba(38, 38, 38, 0.2);
+    top: -4px;
+    border: 1px solid #464545;
 }
 
 .card-img-top{
