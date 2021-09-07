@@ -211,22 +211,30 @@ div.side-menu-songs-list::-webkit-scrollbar-thumb {
     border: none;
 }
 
+.first-div-card-styles{
+    width: 15rem; 
+    height: 5rem; 
+    border-radius: 10px;
+}
+
+div.first-div-card-styles img{
+    border-top-left-radius: 10px ;
+    border-bottom-left-radius: 10px ;
+}
+
 /* STYLE OF GREETINGS SECTION END */
 
 
 /* CSS STYLES FOR THE CARDS */
 .card{
     background-color: rgb(31, 27, 27);
-    margin: 8px;
-    
-    
+    margin: 8px; 
 }
 
 .card-img-top{
     width: 150px;
     height: 180px;
     margin: 15px; 
-   
 }
 
 .card-text-paragraph{
