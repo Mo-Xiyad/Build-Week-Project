@@ -1,0 +1,22 @@
+.row div img{
+    height: 150px;
+    padding-left: 100%;
+}
+
+.container-fluid .bootstrap-icons nav ul {
+ padding-left: 47%; 
+    display: flex;
+    justify-content: space-between;
+}
+.bi-play-circle{
+    font-size: xx-large;
+border-color: white;
+
+} 
+.bi-heart{
+    font-size: large;
+    
+}
+.bi-three-dots{
+
+}
