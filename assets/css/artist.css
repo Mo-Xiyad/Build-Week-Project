@@ -19,6 +19,44 @@ h3,h4{
 }
 .three-dot-container{
     margin-left: 20px;
+    overflow: hidden
 }
 
 /* CSS STYLE FOR THE TABLE ON THE ARTIST PAGE END */
+.hidden-box-artist{
+    background: rgb(0,0,0);
+    margin:0;
+    padding: 0;
+    width: 100%;
+    opacity: 0.5;
+    overflow-x: hidden;
+}
+
+div.hidden-box-artist div.row div.text-box-wthi-artist{
+    /* background: rgb(0,0,0);
+    background: linear-gradient(58deg, rgba(0,0,0,1) 26%, rgba(15,15,15,0.5074404761904762) 85%); */
+    /* position: absolute; */
+    margin:0;
+    /* height: 350px; */
+    /* width: 100vw; */
+    opacity: 0.5;
+}
+
+
+/* .fade-box-artist{
+    background: rgb(18,18,18);
+    background: linear-gradient(0deg, rgba(18,18,18,0.938813025210084) 0%, rgba(8,8,9,1) 73%, rgba(0,0,0,0.9612219887955182) 99%);
+    height: 100px;
+    width: 100vw;
+} */
+
+div.box div.artist-top-lable h1{
+    font-weight: bolder;
+    font-size: 80px;
+    z-index:22;
+
+}
+
+div.box div.artist-top-lable{
+    margin-top:  200px;
+}
