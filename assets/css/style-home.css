@@ -85,8 +85,7 @@ div.main-nav-bar div.side-nav{
     padding: 0;
     width: 12%;
     position: fixed;
-    height: 665px;
-    
+    height: 84vh;
 }
 
 div.main-nav-bar div.side-nav ul{
@@ -109,7 +108,7 @@ div.main-nav-bar div.side-nav ul li a.active {
 }
 
 div.main-nav-bar div.side-nav ul li a:hover:not(.active) {
-    background-color: #555;
+    font-weight: bold;
     color: rgb(255,255,255);
 }
 
@@ -131,7 +130,6 @@ div.plus-sign-nav + a{
     color:#B3B3B3;
     text-decoration: none;
     cursor: pointer;
-    
 }
 .liked-sign-nav{
     background: linear-gradient(135deg,#450af5,#c4efd9);
@@ -164,7 +162,7 @@ hr{
 
 div.side-menu-songs-list{
     overflow: auto;
-    height: calc(100vh - 60vh);
+    height: 35vh;
     background-color: rgb(0,0,0);
 }
 
@@ -223,6 +221,12 @@ div.side-menu-songs-list::-webkit-scrollbar-thumb {
     cursor: pointer;
     background-color: rgba(82, 79, 79, 0.3) !important;
     color: #fff;
+  }
+  div.first-div-card-styles a{
+      color: white;
+  }
+  div.first-div-card-styles a:hover{
+      text-decoration:none;
   }
 
   
@@ -283,3 +287,26 @@ div.first-div-card-styles img{
 }
 
 /* CSS STYLES FOR THE CARD END */
+
+/* FOOTER CSS */
+footer {
+        padding: 10px 10px 0px 10px;
+        height: calc(100vh - 84vh);
+        font-size: 15px;
+        background-color: #181818;
+        border-top: 1px solid #282828;
+        }
+        
+        .bar{
+        height: 2px;
+        width: 75%;
+        background-color: white;
+        }
+        .bar2{
+        height: 4px;
+        width: 25%;
+        background-color: white
+        }
+
+/* Audio Player */
+
