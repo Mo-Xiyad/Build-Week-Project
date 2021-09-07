@@ -12,16 +12,31 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
     <link rel="stylesheet" href="./assets/css/style-home.css">
     <link rel="stylesheet" href="./assets/css/artist.css">
-    <title>Spotify</title>
+    <title>Artist</title>
 </head>
 
 <body>
-    <div class="hidden-box position-absolute"></div>
+    <div class='position-relative'>
+        <div class="box hidden-box-artist position-absolute">
+            <div class="row">
+                <div class="text-box-wthi-artist">
+                    <div class="col-2">
+
+                    </div>
+                </div>
+                <div class="col-10 ml-auto p-0 pt-5">
+                    <img src="./assets/img/artist/queen3.jpeg" width='100%' height="400" style="object-fit:fill;">
+                </div>
+                <!-- <div class="container-fluid fade-box-artist"></div> -->
+            </div>
+        </div>
+    </div>
+
+
+    <!-- nav bar -->
     <div class="main-nav-bar">
         <div class="side-nav">
             <div class='py-3 px-2 m-2'>
-                <!-- <img src="./assets/img/logos/01_RGB/02_PNG/Spotify_Logo_RGB_White.png" width='68%' height="40"
-                    style='object-fit:fill;'> -->
                 <svg viewBox="0 0 1134 340" class="">
                     <title>Spotify</title>
                     <path fill="white"
@@ -129,6 +144,22 @@
                 </div>
             </div>
         </nav>
+    </div>
+    <!-- end navbar -->
+    <div class="box position-relative pl-2">
+        <div class="artist-top-lable">
+            <p class="m-0"><svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M12 21.6596l-3.38079 1.8543-1.84158-3.3877-3.84662-.2679.28231-3.8456-3.09118-2.3049 2.31658-3.0825-1.3543-3.61028 3.61534-1.34071.81255-3.76935 3.76627.82672L12 0l2.7214 2.73168 3.7663-.82672.8125 3.76935 3.6154 1.34071-1.3543 3.61028 2.3166 3.0825-3.0912 2.3049.2823 3.8456-3.8466.2679-1.8416 3.3877L12 21.6596z"
+                        fill="#2E77D0"></path>
+                    <path
+                        d="M16.8637 7.41226l-6.6435 7.77824-2.80421-3.2842-.4935.5775 3.29771 3.8617 7.2135-8.44649-.57-.48675z"
+                        fill="#fff"></path>
+                </svg> Verified Artist</p>
+            <h1>Queen</h1>
+            <small>73,052,587 monthly listeners</small>
+        </div>
     </div>
 
     <!-- Artist GOes HERE -->
@@ -244,23 +275,6 @@
 
 
     <!--- FOOTER-->
-    <section>
-        <footer>
-            <nav class="navbar navbar-light bg-light">
-                <span class="navbar-text">
-                    <div class="d-flex justify-content -center text-white">
-                        <!-- <ul class="list-unstyled">
-                         <li><i class="bi bi-volume-up"></i></li> 
-                     </ul>   -->
-
-                        <li class="list-unstyled ml-auto"><i class="bi bi-volume-up"></i></li>
-
-                    </div>
-
-                </span>
-            </nav>
-        </footer>
-    </section>
 
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
