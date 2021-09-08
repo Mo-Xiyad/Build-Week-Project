@@ -27,8 +27,9 @@ h3,h4{
 .hidden-box-artist{
     background: rgb(0,0,0);
     margin:0;
+    margin-left: 10%;
     padding: 0;
-    width: 100%;
+    width: 90%;
     opacity: 0.5;
     /* height: 45vh; */
     overflow-x: hidden;
