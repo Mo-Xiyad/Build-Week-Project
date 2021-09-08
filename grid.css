@@ -9,7 +9,7 @@
 .col {
 	display: block;
 	float:left;
-	margin: 1% 0 1% 1%;
+	margin: 0% 0 0% 0%;
 }
 .col:first-child { margin-left: 0; }
 
@@ -17,7 +17,10 @@
 .group:before,
 .group:after { content:""; display:table; }
 .group:after { clear:both;}
-.group { zoom:1; /* For IE 6/7 */ }
+.group { zoom:0.3; /* For IE 6/7 */ }
+.group{
+	font-size: 70px;
+}
 
 /*  GRID OF SEVEN  */
 .span_7_of_7 {
