@@ -13,6 +13,7 @@
 th,td{
     color:white;
 }
+
 h3,h4{
     font-weight: bold;
     color: white;
@@ -29,6 +30,7 @@ h3,h4{
     padding: 0;
     width: 100%;
     opacity: 0.5;
+    /* height: 45vh; */
     overflow-x: hidden;
 }
 
@@ -43,12 +45,13 @@ div.hidden-box-artist div.row div.text-box-wthi-artist{
 }
 
 
-/* .fade-box-artist{
+.fade-box-artist{
     background: rgb(18,18,18);
     background: linear-gradient(0deg, rgba(18,18,18,0.938813025210084) 0%, rgba(8,8,9,1) 73%, rgba(0,0,0,0.9612219887955182) 99%);
     height: 100px;
     width: 100vw;
-} */
+    z-index:-1;
+}
 
 div.box div.artist-top-lable h1{
     font-weight: bolder;
@@ -58,5 +61,5 @@ div.box div.artist-top-lable h1{
 }
 
 div.box div.artist-top-lable{
-    margin-top:  200px;
+    margin-top:  125px;
 }
