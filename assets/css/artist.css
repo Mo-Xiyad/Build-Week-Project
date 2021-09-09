@@ -32,17 +32,31 @@
     }
 
 th,td {
-    color:white;
+    color:rgb(134, 134, 134);
     vertical-align: middle;
+    font-weight: bold;
 }
 
 h3,h4 {
-    font-weight: bold;
+    font-weight: bolder;
     color: white;
 }
 .three-dot-container{
     margin-left: 20px;
     overflow: hidden
+}
+
+.button-one {
+    color: rgb(255, 255, 255);
+}
+
+.gradient-background{
+    background: rgb(25,20,20);
+    background: linear-gradient(0deg, rgba(25,20,20,1) 0%, rgba(25,20,20,1) 60%, rgba(110,89,89,1) 100%);
+}
+
+.icon-container{
+    margin-top: -20px;
 }
 
 /* CSS STYLE FOR THE TABLE ON THE ARTIST PAGE END */
@@ -77,9 +91,10 @@ div.hidden-box-artist div.row div.text-box-wthi-artist{
 }
 
 div.box div.artist-top-lable h1{
-    font-weight: bolder;
-    font-size: 80px;
+    font-weight: 800;
+    font-size: 90px;
     z-index:22;
+    letter-spacing: -3px;
 
 }
 
