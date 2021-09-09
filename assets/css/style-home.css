@@ -6,6 +6,7 @@ body{
     font-family:sans-serif,Helvetica,Helvetica,Arial;
     color:#B3B3B3;
     background-color: #121212;
+    overflow-x: hidden;
 }
 
 body::-webkit-scrollbar {
