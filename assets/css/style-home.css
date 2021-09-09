@@ -393,7 +393,7 @@ a.card-link:hover {
 /* CSS STYLES FOR THE CARD END */
 
 /* FOOTER CSS */
-footer {
+.box-footer footer {
     
         padding: 10px 10px 0px 10px;
         height: calc(100vh - 90vh);

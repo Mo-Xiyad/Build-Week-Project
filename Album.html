@@ -126,16 +126,18 @@
                 </div>
             </div>
             <div class="btn-group ml-auto my-lg-0 d-flex position-relative pr-3">
-                <button class="btn btn-sm dropdown-toggle rounded-pill" style="height:35px;" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    <img src="./assets/img/profile-img.jpeg" class="rounded-circle" width="30" height="30" style="object-fit: fill;">
+                <button class="btn btn-sm dropdown-toggle rounded-pill" style="height:35px;" type="button"
+                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <img src="./assets/img/profile-img.jpeg" class="rounded-circle" width="30" height="30"
+                        style="object-fit: fill;">
                     Diego 'Ziba' Ba...
                 </button>
                 <div class="dropdown-menu mt-2">
                     <a class="dropdown-item" href="#">Account</a>
                     <a class="dropdown-item" href="#">Profile</a>
                     <a class="dropdown-item" href="./login.html">Log out</a>
-                  </div>
-              </div>
+                </div>
+            </div>
         </nav>
     </div>
 
@@ -143,7 +145,7 @@
     <div class="box pl-0 mb-3 d-flex mr-auto">
         <div class="row col-12">
             <div class="col-1 mr-lg-4">
-                <img src="https://images-na.ssl-images-amazon.com/images/I/71WVq7VqUkL._AC_SX522_.jpg" height="60px"
+                <img src="https://images-na.ssl-images-amazon.com/images/I/71WVq7VqUkL._AC_SX522_.jpg" height="150px"
                     alt="">
             </div>
             <!-- <div class="col-1"></div> -->
@@ -194,8 +196,8 @@
                 <div class="col-10">
                     <p><small>TITLE</small></p>
                 </div>
-                <div class="col-1 clock"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-                        class="bi bi-clock float-right mr-2" viewBox="0 0 16 16">
+                <div class="col-1 clock"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                        fill="currentColor" class="bi bi-clock float-right mr-2" viewBox="0 0 16 16">
                         <path d="M8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71V3.5z" />
                         <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zm7-8A7 7 0 1 1 1 8a7 7 0 0 1 14 0z" />
                     </svg></div>
@@ -397,49 +399,59 @@
     <!-- ----Footer----- -->
     <!--- FOOTER-->
 
-    <footer class="fixed-bottom position-sticky">
-        <div class="container text-white pt-4">
-            <div class="row ">
-                <div class="col-4 d-flex ">
-                    <img src="https://townsquare.media/site/295/files/2020/08/DustEMI.jpg" height="46px" alt="">
-                    <p class="px-2 pt-2"> Another one bites the Dust </p>
-                    <i class="pt-2 bi bi-heart"></i>
-                </div>
-                <div class="col-4">
-                    <div class="row">
-                        <div class="col-2"></div>
-                        <div class="col-8 d-flex justify-content-between">
-                            <i class="bi bi-arrow-repeat px-1"></i>
-                            <i class="bi bi-skip-backward px-1"></i>
-                            <i class="bi bi-play-circle px-1"></i>
-                            <i class="bi bi-skip-forward px-1"></i>
-                            <i class="bi bi-arrow-repeat px-1"></i>
+    <div class="box-footer">
+        <footer>
+            <div class="container-fluid text-white mx-0 px-0">
+                <div class="row ">
+                    <div class="col-5 d-flex " style="justify-content: flex-start;">
+                        <img src="https://townsquare.media/site/295/files/2020/08/DustEMI.jpg" height="46px" alt="">
+                        <p> Another one bites the Dust </p>
+                        <i class="bi bi-heart px-2"></i>
+                        <i class="bi bi-view-list px-2"></i>
+                    </div>
+                    <div class="col-4 ">
+                        <div class="row">
+                            <div class="col-2"></div>
+                            <div class="col-8 d-flex justify-content-around">
+                                <i class="bi bi-arrow-repeat px-0 py-1"></i>
+                                <i class="bi bi-skip-backward px-0 py-1"></i>
+                                <div class="container2"><svg xmlns="http://www.w3.org/2000/svg" width="45px"
+                                        height="20px" fill="white" class="bi bi-play-circle-fill" viewBox="0 0 16 16">
+                                        <path
+                                            d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM6.79 5.093A.5.5 0 0 0 6 5.5v5a.5.5 0 0 0 .79.407l3.5-2.5a.5.5 0 0 0 0-.814l-3.5-2.5z" />
+                                    </svg></div>
+                                <i class="bi bi-skip-forward px-0 py-1"></i>
+                                <i class="bi bi-arrow-repeat px-0 py-1"></i>
+                            </div>
+                            <div class="col-3"></div>
                         </div>
-                        <div class="col-2"></div>
+                        <div class="d-flex justify-content-between">
+                            <div>0.00</div>
+                            <!-- <div class="align-center"> -->
+                            <div class="bar align-self-center"></div>
+                            <!-- </div> -->
+                            <div>3.25</div>
+
+
+                        </div>
                     </div>
-                    <div class="d-flex justify-content-between">
-                        <div>0.00</div>
-                        <!-- <div class="align-center"> -->
-                        <div class="bar align-self-center"></div>
-                        <!-- </div> -->
-                        <div>3.25</div>
+                    <div class="col-3">
+                        <div class="row justify-content-end align-items-center ">
+                            <!--  div class="col-7"></div>
+                            <div class="col-5 .d-inline-block"> -->
 
 
-                    </div>
-                </div>
-                <div class="col-4">
-                    <div class="row">
-                        <div class="col-7"></div>
-                        <div class="col-5"><i class="bi bi-volume-up"></i>
-
-                            <div class="bar2"></div>
+                            <i class="bi bi-music-note-list px-2"></i>
+                            <i class="bi bi-volume-up px-2 "></i>
+                            <div class="bar2 d-inline-block px-2"></div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-        </div>
+    </div>
+    </div>
     </footer>
+    </div>
 
 
 
