@@ -88,6 +88,13 @@ function applyTheme(theme) {
     let sideNavHomeButton = document.querySelector('div.main-nav-bar div.side-nav ul li a.active')
     let logoSvg = document.querySelector('.logo-svg-top > #top-svg')
     let allTheCards = document.querySelectorAll('.card')
+    let profileButtom = document.querySelectorAll('.dropdown-toggle, .dropdown-menu')
+    let slidBack = document.querySelector('.slide-back')
+    let slidNext = document.querySelector('.slide-next')
+    let slideIconBack = document.querySelector('.slide-back button i')
+    let slideIconNext = document.querySelector('.slide-next button i')
+    let modeIconLight = document.querySelector('.bi-sun-fill')
+    let modeIconDark = document.querySelector('.bi-moon-fill')
 
 
     if (theme === 'light') {
@@ -103,14 +110,27 @@ function applyTheme(theme) {
             cards.classList.add('allCards-light')
         }
 
-
+        for (let i = 0; i < profileButtom.length; i++) {
+            menu = profileButtom[i]
+            menu.classList.add('pofile-light')
+        }
+        // mode.classList.add('mode-Icon')
+        modeIconLight.classList.add('mode-Icon')
+        // modeIconDark.classList.add('mode-Icon')
+        slideIconNext.classList.add('slideIcon-light')
+        slideIconBack.classList.add('slideIcon-light')
+        slidNext.classList.add('slide-indicator-button')
+        slidBack.classList.add('slide-indicator-button')
         sideNavBar.classList.add('light-theme-side-nav')
         songsMenuList.classList.add('songsMenu-ligh-theme')
         sideNavHomeButton.classList.add('sideNavHomeButton-light')
         logoSvg.setAttribute('fill', 'black')
+        // remover dark mode icon if its the light mode
+        modeIconDark.classList.remove('mode-Icon')
 
     }
     else {
+        modeIconDark.classList.add('mode-Icon')
         for (let i = 0; i < allTextelements.length; i++) {
             elements = allTextelements[i]
             elements.classList.remove('allTextelements-theme-light')
@@ -119,7 +139,15 @@ function applyTheme(theme) {
             cards = allTheCards[i]
             cards.classList.remove('allCards-light')
         }
-
+        for (let i = 0; i < profileButtom.length; i++) {
+            menu = profileButtom[i]
+            menu.classList.remove('pofile-light')
+        }
+        modeIconLight.classList.remove('mode-Icon')
+        slideIconNext.classList.remove('slideIcon-light')
+        slideIconBack.classList.remove('slideIcon-light')
+        slidNext.classList.remove('slide-indicator-button')
+        slidBack.classList.remove('slide-indicator-button')
         hiddenBox.classList.remove('hidden-box-theme-light')
         sideNavBar.classList.remove('light-theme-side-nav')
         sideNavHomeButton.classList.remove('sideNavHomeButton-light')

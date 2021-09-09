@@ -39,11 +39,27 @@ background: linear-gradient(180deg, rgba(254,254,254,1) 0%, rgba(18, 233, 75, 0.
     border: none !important;
 }
 
+.pofile-light{
+  background: linear-gradient(180deg, rgba(254,254,254,1) 0%, rgba(18, 233, 75, 0.096) 1%) !important;
+  color: black !important;
+}
+.pofile-light:hover{
+  color: black !important;
+}
 
+.slide-indicator-button{
+  background: linear-gradient(180deg, rgba(254,254,254,1) 0%, rgba(18, 233, 75, 0.192) 1%) !important;
 
+}
+.slideIcon-light{
+  color:black !important;
+}
 
 .select__input {
+    position:absolute;
     -webkit-appearance: none;
+    right: 250px;
+    top: 10px;
     -moz-appearance: none;
     padding: 7px 14px;
     background: none;
@@ -53,6 +69,15 @@ background: linear-gradient(180deg, rgba(254,254,254,1) 0%, rgba(18, 233, 75, 0.
     color: var(--text-color);
     font-weight: 500;
     font-family: var(--font-family);
+}
+.laighmode{
+  position:absolute;
+  right: 240px;
+  top: 16px;
+  display: none;
+}
+.mode-Icon{
+  display: block;
 }
 
 .select__input option {
