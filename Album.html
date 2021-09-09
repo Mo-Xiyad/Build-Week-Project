@@ -114,13 +114,13 @@
         </div>
         <nav class="navbar navbar-expand-lg navbar-light bg-light pb-3">
             <div class="d-none d-sm-block indicators">
-                <div class="slide-next d-inline-block mr-2">
+                <div class="slide-next d-inline-block mr-2" onclick="goBack()">
                     <button class="btn">
-                        <i class="bi bi-chevron-left" onclick="goForward()"></i>
+                        <i class="bi bi-chevron-left"></i>
                     </button>
                 </div>
-                <div class="slide-back d-inline-block">
-                    <button class="btn" onclick="goback()">
+                <div class="slide-back d-inline-block" onclick="goForward()">
+                    <button class="btn">
                         <i class="bi bi-chevron-right"></i>
                     </button>
                 </div>
@@ -448,8 +448,8 @@
 
 
     <!--- FOOTER-->
-
     <script src="./assets/js/inxed.js"></script>
+    <script src="./assets/js/functions.js"></script>
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
