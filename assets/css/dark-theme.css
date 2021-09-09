@@ -51,6 +51,9 @@ background: linear-gradient(180deg, rgba(254,254,254,1) 0%, rgba(18, 233, 75, 0.
   background: linear-gradient(180deg, rgba(254,254,254,1) 0%, rgba(18, 233, 75, 0.192) 1%) !important;
 
 }
+.slide-indicator-button:hover{
+  background: linear-gradient(180deg, rgba(254,254,254,1) 0%, rgba(18, 233, 75, 0.342) 1%) !important;
+}
 .slideIcon-light{
   color:black !important;
 }
