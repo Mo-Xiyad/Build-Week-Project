@@ -60,6 +60,9 @@ h3,h4 {
 }
 
 .follow-btn {
+    font-weight: bold;
+    font-size: small;
+    height: 30px;
     margin-left: 16px;
 }
 
