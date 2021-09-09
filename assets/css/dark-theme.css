@@ -1,0 +1,60 @@
+
+body.theme-light{
+background: #FEFEFE !important;
+color:black;
+}
+
+.hidden-box-theme-light{
+ /* background: rgb(254,254,254); */
+background: linear-gradient(180deg, rgba(254,254,254,1) 0%, rgba(18,233,75,0.38) 100%) !important;
+ opacity: .2 !important;
+ margin-left: 15%;
+}
+
+.allTextelements-theme-light{
+  color: black !important;
+}
+
+.light-theme-side-nav{
+  /* background-color: rgba(18, 233, 75, 0.1) !important; */
+  background-color: rgb(243,242,248) !important;
+}
+.songsMenu-ligh-theme{
+  background-color: rgb(18 233 75 / 0%) !important;
+}
+
+.sideNavHomeButton-light{
+background: linear-gradient(180deg, rgba(254,254,254,1) 0%, rgba(18, 233, 75, 0.096) 1%) !important;
+  border-left: 3px solid  rgba(114, 211, 85, 0.192)!important;
+  border-right: 3px solid  rgba(114, 211, 85, 0.192)!important;
+  border-radius: 10px !important;
+}
+
+.allCards-light{
+  background: linear-gradient(180deg, rgba(254,254,254,1) 0%, rgba(18, 233, 75, 0.096) 1%) !important;
+  box-shadow: 0px 4px 8px rgba(38, 38, 38, 0.2);
+}
+
+.allCards-light:hover{
+    border: none !important;
+}
+
+
+
+
+.select__input {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    padding: 7px 14px;
+    background: none;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    color: var(--text-color);
+    font-weight: 500;
+    font-family: var(--font-family);
+}
+
+.select__input option {
+    color: #000000;
+}

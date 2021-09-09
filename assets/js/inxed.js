@@ -75,6 +75,82 @@ const colorChanger = function () {
 
 }
 
+
+
+function applyTheme(theme) {
+    document.body.classList.remove("theme-light", "theme-dark");
+    document.body.classList.add(`theme-${theme}`);
+    console.log(theme)
+    let hiddenBox = document.querySelector('div.hidden-box')
+    let allTextelements = document.querySelectorAll('h1, h2, h3, h4, h5, h6, a, p, li, small, span')
+    let sideNavBar = document.querySelector('div.main-nav-bar div.side-nav')
+    let songsMenuList = document.querySelector('div.side-menu-songs-list')
+    let sideNavHomeButton = document.querySelector('div.main-nav-bar div.side-nav ul li a.active')
+    let logoSvg = document.querySelector('.logo-svg-top > #top-svg')
+    let allTheCards = document.querySelectorAll('.card')
+
+
+    if (theme === 'light') {
+        hiddenBox.classList.add('hidden-box-theme-light');
+
+        for (let i = 0; i < allTextelements.length; i++) {
+            elements = allTextelements[i]
+            elements.classList.add('allTextelements-theme-light')
+        }
+
+        for (let i = 0; i < allTheCards.length; i++) {
+            cards = allTheCards[i]
+            cards.classList.add('allCards-light')
+        }
+
+
+        sideNavBar.classList.add('light-theme-side-nav')
+        songsMenuList.classList.add('songsMenu-ligh-theme')
+        sideNavHomeButton.classList.add('sideNavHomeButton-light')
+        logoSvg.setAttribute('fill', 'black')
+
+    }
+    else {
+        for (let i = 0; i < allTextelements.length; i++) {
+            elements = allTextelements[i]
+            elements.classList.remove('allTextelements-theme-light')
+        }
+        for (let i = 0; i < allTheCards.length; i++) {
+            cards = allTheCards[i]
+            cards.classList.remove('allCards-light')
+        }
+
+        hiddenBox.classList.remove('hidden-box-theme-light')
+        sideNavBar.classList.remove('light-theme-side-nav')
+        sideNavHomeButton.classList.remove('sideNavHomeButton-light')
+        logoSvg.setAttribute('fill', 'white')
+    }
+
+}
+
+document.addEventListener("DOMContentLoaded", () => {
+    const savedTheme = localStorage.getItem("theme") || "auto";
+
+    applyTheme(savedTheme);
+
+    for (const optionElement of document.querySelectorAll("#selTheme option")) {
+        optionElement.selected = savedTheme === optionElement.value;
+    }
+
+    for (const optionElement of document.querySelectorAll("#selTheme option")) {
+        optionElement.selected = savedTheme === optionElement.value;
+
+    }
+
+    document.querySelector("#selTheme").addEventListener("change", function () {
+        localStorage.setItem("theme", this.value);
+        applyTheme(this.value);
+    });
+});
+
+
+
 window.onload = function () {
     colorChanger()
+    lightMode()
 }
