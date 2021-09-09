@@ -6,6 +6,7 @@ body{
     font-family:sans-serif,Helvetica,Helvetica,Arial;
     color:#B3B3B3;
     background-color: #121212;
+    overflow-x: hidden;
 }
 
 body::-webkit-scrollbar {
@@ -393,9 +394,9 @@ a.card-link:hover {
 /* CSS STYLES FOR THE CARD END */
 
 /* FOOTER CSS */
-footer {
+.box-footer footer {
         padding: 10px 10px 0px 10px;
-        height: calc(100vh - 87vh);
+        height: calc(100vh - 90vh);
         font-size: 15px;
         background-color: #181818;
         border-top: 1px solid #282828;
@@ -405,11 +406,14 @@ footer {
         height: 2px;
         width: 75%;
         background-color: white;
+        border-radius: 2px;
         }
         .bar2{
         height: 4px;
-        width: 25%;
-        background-color: white
+        width: 15%;
+        background-color: white;
+        border-radius: 3px;
+
         }
 
 /* Audio Player */
