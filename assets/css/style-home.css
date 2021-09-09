@@ -147,21 +147,25 @@ div.liked-sign-nav + a{
 }
 
 /* Profile button */
-div.dropdown > div{
-background-color: rgba(18,18,18, 0.3) !important;
-border-radius: 55px;
-height: 30px;
-width: 180px;
+.dropdown-toggle img {
+    vertical-align: middle;
+    position: relative;
+    top: -9%;
+    left: -6px;
 }
-div.dropdown a{
-color: white !important;
-width: 195px;
-overflow: hidden;
-white-space: nowrap;
-text-overflow: ellipsis;
-font-weight: bold;
-top: -5px;
-left: -12px;
+
+.dropdown-toggle, .dropdown-menu {
+    background-color: rgb(18,18,18);
+    color: rgb(255,255,255);
+}
+
+.dropdown-item {
+    color: rgb(255,255,255);
+}
+
+.dropdown-toggle:hover{
+    color:rgb(255,255,255) !important;
+    background-color: rgba(5, 5, 5, 0.5);
 }
 
 hr{
