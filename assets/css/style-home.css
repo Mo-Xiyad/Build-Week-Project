@@ -393,10 +393,9 @@ a.card-link:hover {
 /* CSS STYLES FOR THE CARD END */
 
 /* FOOTER CSS */
-.box-footer footer {
-    
+footer {
         padding: 10px 10px 0px 10px;
-        height: calc(100vh - 90vh);
+        height: calc(100vh - 87vh);
         font-size: 15px;
         background-color: #181818;
         border-top: 1px solid #282828;
@@ -406,14 +405,11 @@ a.card-link:hover {
         height: 2px;
         width: 75%;
         background-color: white;
-        border-radius: 2px;
         }
         .bar2{
         height: 4px;
-        width: 15%;
-        background-color: white;
-        border-radius: 3px;
-
+        width: 25%;
+        background-color: white
         }
 
 /* Audio Player */
