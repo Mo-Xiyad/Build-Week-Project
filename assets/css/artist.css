@@ -51,12 +51,16 @@ h3,h4 {
 }
 
 .gradient-background{
-    background: rgb(25,20,20);
-    background: linear-gradient(0deg, rgba(25,20,20,1) 0%, rgba(25,20,20,1) 60%, rgba(110,89,89,1) 100%);
+    background: rgb(18,18,18);
+    background: linear-gradient(0deg, rgba(18,18,18,1) 85%, rgba(218, 197, 197, 0.76) 100%);
 }
 
 .icon-container{
     margin-top: -20px;
+}
+
+.follow-btn {
+    margin-left: 16px;
 }
 
 /* CSS STYLE FOR THE TABLE ON THE ARTIST PAGE END */
