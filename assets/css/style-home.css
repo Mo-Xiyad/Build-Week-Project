@@ -154,6 +154,10 @@ div.liked-sign-nav + a{
     left: -6px;
 }
 
+.dropdown-toggle {
+    font-weight: bolder;
+}
+
 .dropdown-toggle, .dropdown-menu {
     background-color: rgb(18,18,18);
     color: rgb(255,255,255);
