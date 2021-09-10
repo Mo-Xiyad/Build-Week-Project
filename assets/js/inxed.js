@@ -183,8 +183,36 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
 
+const currentDate = function () {
+    let currentDateSpan = document.querySelector('#date')
+    let days = ['Sunday', 'Moday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday']
+    let months = ['Jan', 'Feb', 'March', 'April', 'May', 'June', 'July', 'Aug', 'Sep', 'Nov', 'Dec']
+
+    let d = new Date();
+    let date = d.getDate()
+    let day = d.getDay();
+    let mnoth = d.getMonth()
+    let year = d.getFullYear()
+
+    currentDateSpan.textContent = `${days[day]}, ${date} ${months[mnoth]}`
+}
+
+const time = function () {
+    let timespan = document.querySelector('#time')
+    let d = new Date();
+    //======= Time  =======
+    let s = d.getSeconds();
+    let m = d.getMinutes();
+    let h = d.getHours();
+
+    timespan.textContent =
+        ("0" + h).substr(-2) + ":" + ("0" + m).substr(-2) + ":" + ("0" + s).substr(-2);
+    setInterval(time, 1000);
+}
+
 
 window.onload = function () {
     colorChanger()
-    lightMode()
+    currentDate()
+    time()
 }
