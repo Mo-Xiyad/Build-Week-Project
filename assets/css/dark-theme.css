@@ -48,7 +48,7 @@ background: linear-gradient(180deg, rgba(254,254,254,1) 0%, rgba(18, 233, 75, 0.
 }
 
 .slide-indicator-button{
-  background: linear-gradient(180deg, rgba(254,254,254,1) 0%, rgba(18, 233, 75, 0.192) 1%) !important;
+  background: linear-gradient(180deg, rgba(254,254,254,1) 0%, rgba(18, 233, 75, 0.096) 1%) !important;
 
 }
 .slide-indicator-button:hover{
