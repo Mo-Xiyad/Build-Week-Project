@@ -97,6 +97,9 @@ function applyTheme(theme) {
     let modeIconDark = document.querySelector('.bi-moon-fill')
     let Nodefooter = document.querySelector('footer')
     let NodefooterText = document.querySelector('footer p')
+    let timedisplyDark = document.querySelector('.bi-clock')
+    let timedisplyLight = document.querySelector('.bi-clock-fill')
+
 
 
 
@@ -117,7 +120,8 @@ function applyTheme(theme) {
             menu = profileButtom[i]
             menu.classList.add('pofile-light')
         }
-
+        timedisplyLight.classList.remove('display')
+        timedisplyDark.classList.add('display')
         NodefooterText.classList.add('footerText-light')
         Nodefooter.classList.add('footer-light')
         modeIconLight.classList.add('mode-Icon')
@@ -147,6 +151,8 @@ function applyTheme(theme) {
             menu = profileButtom[i]
             menu.classList.remove('pofile-light')
         }
+        timedisplyLight.classList.add('display')
+        timedisplyDark.classList.remove('display')
         NodefooterText.classList.remove('footerText-light')
         Nodefooter.classList.remove('footer-light')
         modeIconLight.classList.remove('mode-Icon')
@@ -185,7 +191,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
 const currentDate = function () {
     let currentDateSpan = document.querySelector('#date')
-    let days = ['Sunday', 'Moday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday']
+    let days = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat']
     let months = ['Jan', 'Feb', 'March', 'April', 'May', 'June', 'July', 'Aug', 'Sep', 'Nov', 'Dec']
 
     let d = new Date();

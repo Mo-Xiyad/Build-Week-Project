@@ -67,6 +67,18 @@ background: linear-gradient(180deg, rgba(254,254,254,1) 0%, rgba(18, 233, 75, 0.
   color: white !important;
 }
 
+/* DATE AND TIME */
+.display{
+  display: none;
+}
+
+#time{
+font-size: 13px;
+}
+#date{
+font-size: 13px;
+}
+
 .select__input {
     position:absolute;
     -webkit-appearance: none;
