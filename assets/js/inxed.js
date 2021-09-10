@@ -96,6 +96,8 @@ function applyTheme(theme) {
     let modeIconLight = document.querySelector('.bi-sun-fill')
     let modeIconDark = document.querySelector('.bi-moon-fill')
     let Nodefooter = document.querySelector('footer')
+    let NodefooterText = document.querySelector('footer p')
+
 
 
     if (theme === 'light') {
@@ -116,6 +118,7 @@ function applyTheme(theme) {
             menu.classList.add('pofile-light')
         }
 
+        NodefooterText.classList.add('footerText-light')
         Nodefooter.classList.add('footer-light')
         modeIconLight.classList.add('mode-Icon')
         slideIconNext.classList.add('slideIcon-light')
@@ -144,6 +147,7 @@ function applyTheme(theme) {
             menu = profileButtom[i]
             menu.classList.remove('pofile-light')
         }
+        NodefooterText.classList.remove('footerText-light')
         Nodefooter.classList.remove('footer-light')
         modeIconLight.classList.remove('mode-Icon')
         slideIconNext.classList.remove('slideIcon-light')

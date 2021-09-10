@@ -63,6 +63,10 @@ background: linear-gradient(180deg, rgba(254,254,254,1) 0%, rgba(18, 233, 75, 0.
   border-top: none;
 }
 
+.footerText-light{
+  color: white !important;
+}
+
 .select__input {
     position:absolute;
     -webkit-appearance: none;
