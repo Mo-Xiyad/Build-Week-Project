@@ -217,8 +217,21 @@ const time = function () {
 }
 
 
+const queryDict = {}
+location.search.substr(1).split("&").forEach(function (item) {
+    queryDict[item.split("=")[0]] = item.split("=")[1]
+})
+
+const greet = function () {
+    let sapnMsg = document.querySelector('#greet-pop')
+
+    sapnMsg.textContent = `Welcome Back ${queryDict["usernaem"].substring(0, 3)} !`
+}
+
+
 window.onload = function () {
     colorChanger()
     currentDate()
     time()
+    greet()
 }
