@@ -58,6 +58,11 @@ background: linear-gradient(180deg, rgba(254,254,254,1) 0%, rgba(18, 233, 75, 0.
   color:black !important;
 }
 
+.footer-light{
+  background-color: #7e7e7e !important;
+  border-top: none;
+}
+
 .select__input {
     position:absolute;
     -webkit-appearance: none;
