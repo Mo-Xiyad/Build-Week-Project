@@ -407,10 +407,15 @@ footer {
         width: 75%;
         background-color: white;
         }
+        
         .bar2{
         height: 4px;
         width: 25%;
         background-color: white
+        }
+
+        #volume {
+            margin-left: -80px;
         }
 
 /* Audio Player */
