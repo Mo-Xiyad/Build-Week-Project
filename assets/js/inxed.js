@@ -96,7 +96,7 @@ function applyTheme(theme) {
     let modeIconLight = document.querySelector('.bi-sun-fill')
     let modeIconDark = document.querySelector('.bi-moon-fill')
     let Nodefooter = document.querySelector('footer')
-    let NodefooterText = document.querySelector('footer p')
+    let NodefooterText = document.querySelectorAll('footer small')
     let timedisplyDark = document.querySelector('.bi-clock')
     let timedisplyLight = document.querySelector('.bi-clock-fill')
 
@@ -120,9 +120,13 @@ function applyTheme(theme) {
             menu = profileButtom[i]
             menu.classList.add('pofile-light')
         }
+        for (let i = 0; i < NodefooterText.length; ++i) {
+            text = NodefooterText[i]
+            text.classList.add('footerText-light')
+        }
+
         timedisplyLight.classList.remove('display')
         timedisplyDark.classList.add('display')
-        NodefooterText.classList.add('footerText-light')
         Nodefooter.classList.add('footer-light')
         modeIconLight.classList.add('mode-Icon')
         slideIconNext.classList.add('slideIcon-light')
@@ -151,9 +155,13 @@ function applyTheme(theme) {
             menu = profileButtom[i]
             menu.classList.remove('pofile-light')
         }
+        for (let i = 0; i < NodefooterText.length; ++i) {
+            text = NodefooterText[i]
+            text.classList.remove('footerText-light')
+        }
+
         timedisplyLight.classList.add('display')
         timedisplyDark.classList.remove('display')
-        NodefooterText.classList.remove('footerText-light')
         Nodefooter.classList.remove('footer-light')
         modeIconLight.classList.remove('mode-Icon')
         slideIconNext.classList.remove('slideIcon-light')
