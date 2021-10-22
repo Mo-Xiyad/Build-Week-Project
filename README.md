@@ -12,5 +12,5 @@
 
 
 # opent the project by clicking the link below
-<a href="https://mo-xiyad.github.io/Build-Week-Project/
+`CLICK ME TO OPEN PROJECT --->` <a href="https://mo-xiyad.github.io/Build-Week-Project/
 ">Spotify clone</a>
