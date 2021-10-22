@@ -1,5 +1,8 @@
 # Spotify Clone
 
+# opent the project by clicking the link below
+`CLICK ME TO OPEN PROJECT --->` <a href="https://mo-xiyad.github.io/Spotify-clone/
+">Spotify clone</a>
 
 ### This project is created with just plan HTML, CSS, vanilla Javascript.
 - No additional libraries has been used in this project
@@ -16,7 +19,3 @@
 - uses will be able to add reminders, that will follow with Notifications 
 - Timeouts  can be set
 
-
-# opent the project by clicking the link below
-`CLICK ME TO OPEN PROJECT --->` <a href="https://mo-xiyad.github.io/Spotify-clone/
-">Spotify clone</a>
